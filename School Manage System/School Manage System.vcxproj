@@ -127,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="login.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="teacher.c" />
     <ClCompile Include="x64\menu.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="login.h" />
+    <ClInclude Include="teacher.h" />
     <ClInclude Include="x64\menu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

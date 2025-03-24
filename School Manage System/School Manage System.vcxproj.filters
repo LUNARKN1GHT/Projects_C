@@ -21,9 +21,21 @@
     <ClCompile Include="x64\menu.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="teacher.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="login.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="x64\menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teacher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

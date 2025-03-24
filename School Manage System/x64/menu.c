@@ -4,67 +4,32 @@ void menu()
 {
 	printf("Welcome to School Manage System!\n");
 	printf("Please enter your option:\n");
-    printf("1. Add teacher\n");
-    printf("2. Delete teacher\n");
-    printf("3. Add student\n");
-    printf("4. Delete student\n");
-    printf("5. Add course\n");
-    printf("6. Delete course\n");
-    printf("7. Query teacher\n");
-    printf("8. Query student\n");
-    printf("9. Query course\n");
-    printf("10. Exit system\n");
-    while (1)
-    {
-        scanf_s("%d", &menue_option); //input the option
-        switch (menue_option)
+	printf("1. login as administrator\n");
+    printf("2. login as teacher\n");
+    printf("3. login as student\n");
+	printf("0. exit the system\n");
+
+	while (1)
+	{
+        scanf_s("%d", &menu_option);
+
+        switch (menu_option)
         {
-            case add_teacher:
-                printf("1");
+            case login_op_administrator:
+                login_as_administrator();
                 break;
-            case delete_teacher:
-                printf("1");
+            case login_op_teacher:
+                login_as_teacher();
                 break;
-            case add_student:
-                printf("1");
+            case login_op_student:
+                login_as_student();
                 break;
-            case delete_student:
-                printf("1");
-                break;
-            case add_course:
-                printf("1");
-                break;
-            case delete_course:
-                printf("1");
-                break;
-            case query_teacher:
-                printf("1");
-                break;
-            case query_student:
-                printf("1");
-                break;
-            case query_course:
-                printf("1");
-                break;
-            case exit_system:
+            case 0:
+                printf("exit the system\n");
                 exit(0);
-                break;
             default:
-                printf("Invalid option. Please input again.\n");
+                printf("Invalid option, please in put again.\n");
                 break;
         }
-        system("pause");
-        system("cls");
-        printf("1. Add teacher\n");
-        printf("2. Delete teacher\n");
-        printf("3. Add student\n");
-        printf("4. Delete student\n");
-        printf("5. Add course\n");
-        printf("6. Delete course\n");
-        printf("7. Query teacher\n");
-        printf("8. Query student\n");
-        printf("9. Query course\n");
-        printf("10. Exit system\n");
-        fflush(stdout);
-    }
+	}
 }

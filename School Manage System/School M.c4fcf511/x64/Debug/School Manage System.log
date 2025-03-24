@@ -1,2 +1,7 @@
-﻿  menu.c
+﻿  teacher.c
+  menu.c
+D:\LEE32\Projects_C\School Manage System\x64\menu.c(19,17): warning C4013: “login_as_administrator”未定义；假设外部返回 int
+D:\LEE32\Projects_C\School Manage System\x64\menu.c(22,17): warning C4013: “login_as_teacher”未定义；假设外部返回 int
+D:\LEE32\Projects_C\School Manage System\x64\menu.c(25,17): warning C4013: “login_as_student”未定义；假设外部返回 int
+  正在生成代码...
   School Manage System.vcxproj -> D:\LEE32\Projects_C\School Manage System\x64\Debug\School Manage System.exe

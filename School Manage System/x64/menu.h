@@ -9,19 +9,12 @@
 
 enum MENU_OPTION    // define the menu option
 {
-	add_teacher = 1,
-	delete_teacher,
-	add_student,
-    delete_student,
-    add_course,
-    delete_course,
-	query_teacher,
-    query_student,
-    query_course,
-    exit_system
+	login_op_administrator = 1,
+	login_op_teacher,
+    login_op_student,
 };
 
-int menue_option;   // input the menu option
+int menu_option;   // input the menu option
 
 void menu();
 
